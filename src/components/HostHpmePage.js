@@ -184,4 +184,3 @@ class HostHomePage extends React.Component {
 }
 export default HostHomePage;
 
-
