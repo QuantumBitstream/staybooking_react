@@ -206,7 +206,7 @@ class SearchStays extends React.Component {
                                         <StayDetailInfoButton stay={item} />
                                     </div>
                                 }
-                                extra={null}
+                                extra={<BookStayButton stay={item}/>}
                             >
                                 {
                                     <Carousel
